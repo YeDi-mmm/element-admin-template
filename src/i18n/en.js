@@ -1,0 +1,57 @@
+export default {
+  menu: {
+    homepage: 'Homepage',
+    dashboard: 'Dashboard',
+    manageUser: 'User management',
+    manageAccount: 'User management',
+    accountGroup: 'Group manage'
+  },
+  topbar: { 
+    center: 'User center',
+    password: 'Modify password',
+    logout: 'Logout',
+    'lock-title': 'Lock screen',
+    'lock-password': 'Password',
+    'lock-rules-password': 'Please input Screen password',
+    'lock-locked': 'Screen Locked',
+    'lock-lock': 'Unlock',
+    'lock-relogin': 'Re-login',
+    'lock-rules-password2': 'Screen password or User password',
+    'lock-rules-password3': 'Password error',
+    'lock-error': 'Your account has been logged out, please log in directly',
+    'lock-week0': 'Sunday',
+    'lock-week1': 'Monday',
+    'lock-week2': 'Tuesday',
+    'lock-week3': 'Wednesday',
+    'lock-week4': 'Thursday',
+    'lock-week5': 'Friday',
+    'lock-week6': 'Saturday',
+  },
+  tags: {
+    refresh: 'Refresh',
+    close: 'Close',
+    other: 'Close other',
+    left: 'Close left',
+    right: 'Close right',
+    all: 'Close all',
+  },
+  public: {
+    cancel: 'Cancel'
+  },
+  login: {
+    username: 'Username',
+    password: 'Password',
+    login: 'Login',
+    logining: 'Login...',
+    loginsuccess: 'Success',
+    'rules-username': 'Please input username',
+    'rules-password': 'Please input password',
+    'rules-regpassword': '6 to 12 characters in length',
+  },
+  error: {
+    noauth: 'No access',
+    servererror: 'Server error',
+    notfound: 'Page not found',
+    backhome: 'Back to Home',
+  },
+}
